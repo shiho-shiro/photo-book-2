@@ -7,6 +7,9 @@ body{
   height: 100%;
   margin: 0;
 }
+ol{
+  list-style-position: inside;
+}
 .container{
   max-width: 1000px;
   margin: 0 auto;
@@ -23,8 +26,39 @@ h1 img{
 .big-image img{
   width: 100%;
 }
+.wrapper{
+  max-width: 800px;
+  margin: 0 auto;
+}
+#index-section{
+  background-color: rgba(247, 242, 242, 0.844);
+}
+.section-space{
+  margin: 50px 0;
+}
+.index{
+  text-align: center;
+  padding: 50px;
+}
+.index h2{
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: rgb(86, 84, 84);
+}
+.index-list{
+  width: 100%;  
+  padding: 30px 10px;
+  border: 1px solid;
+}
+.list{
+  line-height: 40px;
+  font-size: 0.9rem;
+  color: rgb(59, 57, 57);
+}
+
+
 @media (max-width: 1024px) {
     .response-wrapper{
-      margin: 0 10px;
+      padding: 0 10px;
     }
 }
