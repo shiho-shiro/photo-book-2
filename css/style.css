@@ -38,7 +38,7 @@ h1 img{
 }
 .index{
   text-align: center;
-  padding: 40px 20px;
+  padding: 50px;
 }
 .index h2{
   font-size: 1.2rem;
@@ -55,25 +55,10 @@ h1 img{
   font-size: 0.9rem;
   color: rgb(59, 57, 57);
 }
-.content-image{
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-.content-image img{
-  width: 100%;
-}
+
 
 @media (max-width: 1024px) {
     .response-wrapper{
       padding: 0 10px;
-    }
-    .content-image{
-      justify-content: center;
-      grid-template-columns: auto;
-      grid-row: auto;
-    }
-    .content-image img{
-      max-width: 100%;
     }
 }
